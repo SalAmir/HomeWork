@@ -113,12 +113,12 @@ public class HomeWork {
 		int[] arr = new int[100000];
 		System.out.println("Исходный массив");
 		initArray(list, 100000);
-		printArray(list);
+		//printArray(list);
 		System.out.println("Сортировка массива методом \"Шейкер\":");
 		long time = System.currentTimeMillis();
 		sortShaker(list);
 		System.out.println("Время затраченное на сортировку - " + (System.currentTimeMillis() - time));
-		printArray(list);
+		//printArray(list);
 		System.out.println();
 		System.out.println("Исходный массив");
 		initArray(arr);
