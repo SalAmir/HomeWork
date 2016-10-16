@@ -121,8 +121,8 @@ public class HomeWork {
 		printArray(list);
 		System.out.println();
 		System.out.println("Исходный массив");
-		//initArray(arr);
-		//printArray(arr);
+		initArray(arr);
+		printArray(arr);
 		System.out.println("Сортировка массива методом \"Шейкер\":");
 		time = System.currentTimeMillis();
 		sortShaker(arr);
