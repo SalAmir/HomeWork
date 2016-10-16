@@ -101,19 +101,19 @@ public class HomeWork {
 		int[] arr = new int[100000];
 		long time = System.currentTimeMillis();
 		initArrayList(list, 100000);
-//		System.out.println("Исходный массив:");
-//		printArrayList(list);
+		System.out.println("Исходный массив:");
+		printArrayList(list);
 		sortCombList(list);
 		System.out.println("Время затраченное на сортировку списка- " + (System.currentTimeMillis() - time));
-//		printArrayList(list);
+		printArrayList(list);
 		System.out.println("Исходный массив:");
 		initArray(arr);
-//		printArray(arr);
-//		System.out.println("Сортировка массива методом \"Расчестка\":");
+		printArray(arr);
+		System.out.println("Сортировка массива методом \"Расчестка\":");
 		time = System.currentTimeMillis();
 		sortCombArray(arr);
 		System.out.println("Время затраченное на сортировку массива - " + (System.currentTimeMillis() - time));
-//		printArray(arr);
+		printArray(arr);
 	}
 
 }
