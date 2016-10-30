@@ -29,7 +29,7 @@ public class HomeWork {
 		}
 		return arr;
 	}
-	
+	//
 	static int[] sortShaker(int[] arr){
 		int d = 0, t = arr.length - 1;
 		while (t >= 0)
