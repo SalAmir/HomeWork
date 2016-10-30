@@ -159,7 +159,7 @@ public class HomeWork {
 	public static void main(String[] args) throws IOException, InterruptedException {
 		ArrayList<Integer> list = new ArrayList<Integer>();
 		int[] arr = new int[10000];
-		
+		//
 		initArrayList(list, 10000);
 		long time = System.currentTimeMillis();
 		sortCombList(list);
